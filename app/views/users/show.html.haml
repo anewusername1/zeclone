@@ -1,0 +1,50 @@
+%p
+  %b
+    Login:
+  =h @user.login 
+%p
+
+%p
+  %b
+    Email:
+  =h @user.email
+%p
+
+%p
+  %b
+    Login count:
+  =h @user.login_count
+%p
+
+%p
+  %b
+    Last request at:
+  =h @user.last_request_at
+%p
+
+%p
+  %b
+    Last login at:
+  =h @user.last_login_at
+%p
+
+%p
+  %b
+    Current login at:
+  =h @user.current_login_at
+%p
+
+%p
+  %b
+    Last login ip:
+  =h @user.last_login_ip
+%p
+
+%p
+  %b
+    Current login ip:
+  =h @user.current_login_ip
+%p
+
+
+= link_to 'Edit', edit_account_path
